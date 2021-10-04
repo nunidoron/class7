@@ -2,5 +2,7 @@ node{
     stage("one"){
         sh "ls"
     }
-    
+     stage("two"){
+        echo "hi from stage two"
+    }
 }
